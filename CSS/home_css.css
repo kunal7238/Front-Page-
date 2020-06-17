@@ -1,8 +1,12 @@
-.fa-blog {
-    padding-right: 10px;
+.display3 {
+    font-size: 50px;
 }
 
-.navbar-brand {
+nav .navbar-brand {
+    font-size: 175px;
+    color: white;
+}
+
+.btn-primary {
     font-size: 50px;
-    text-align: right;
 }
