@@ -15,6 +15,13 @@ section .lead {
     font-size: 30px;
 }
 
+#header {
+    background: url("../ASSESTS/IMAGES/headerEdit1.jpg");
+    background-size: cover;
+    opacity: 0.6;
+    background-attachment: scroll;
+}
+
 @media screen and (max-width: 720px) {
     .navbar-brand {
         visibility: hidden;
@@ -22,5 +29,6 @@ section .lead {
     .logo {
         visibility: visible;
         float: center;
+        overflow: auto;
     }
 }
