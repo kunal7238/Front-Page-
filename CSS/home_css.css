@@ -1,25 +1,52 @@
-.display3 {
-    font-size: 50px;
-}
-
 nav .navbar-brand {
-    font-size: 175px;
+    font-size: 166px;
     color: white;
+    height: 248px;
+    padding-top: 0;
+    margin-top: 0;
+    word-spacing: -2rem;
 }
 
-.btn-primary {
-    font-size: 100px;
+a:hover {
+    color: black;
 }
 
-section .lead {
-    font-size: 30px;
+.backBg {
+    background-size: cover;
+    position: relative;
+    height: 318px;
+    width: 1649px;
+    opacity: 0.4;
 }
 
-#header {
+
+/* #header {
     background: url("../ASSESTS/IMAGES/headerEdit1.jpg");
     background-size: cover;
     opacity: 0.6;
     background-attachment: scroll;
+} */
+
+.display3 {
+    position: absolute;
+    font-size: 50px;
+    top: 379px;
+    left: 657px;
+}
+
+section .lead {
+    position: absolute;
+    font-size: 30px;
+    font-weight: 400;
+    top: 471px;
+    left: 301px;
+}
+
+.btn-primary {
+    top: 559px;
+    left: 807px;
+    position: absolute;
+    font-family: Arial, Helvetica, sans-serif;
 }
 
 @media screen and (max-width: 720px) {
