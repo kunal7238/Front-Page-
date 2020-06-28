@@ -7,10 +7,6 @@ nav .navbar-brand {
     word-spacing: -2rem;
 }
 
-a:hover {
-    color: black;
-}
-
 .backBg {
     background-size: cover;
     position: relative;
@@ -39,7 +35,7 @@ section .lead {
     font-size: 30px;
     font-weight: 400;
     top: 471px;
-    left: 301px;
+    left: 253px;
 }
 
 .btn-primary {
